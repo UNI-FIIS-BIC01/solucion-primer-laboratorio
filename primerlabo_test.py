@@ -15,5 +15,5 @@ class PrimerLaboratorioTest(TestCase):
         sys.stdout = resultado_test
 
         primerlabo.primer_laboratorio()
-        resultado_esperado = "x ** y = 8\nlog(x) = 1.0"
+        resultado_esperado = "x ** y = 8\nlog(x) = 1"
         self.assertEqual(resultado_test.getvalue().strip(), resultado_esperado)
